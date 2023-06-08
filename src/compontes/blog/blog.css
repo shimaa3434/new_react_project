@@ -1,0 +1,37 @@
+.blog h2{
+    font-size: clamp(1rem, 35px, 3rem);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.blog hr{
+    height: 3px;
+    border: none;
+    background: #000 !important;
+}
+.blog p{
+    width: 50%;
+    line-height: 1.2;
+    margin: 10px auto;
+}
+.blog .card{
+    transition: .3s all ease-in-out;
+}
+.blog .card:hover{
+    transform: translateY(-10px);
+}
+.blog .card .card-img-top{
+    height: 200px;
+}
+.blog .card .card-title{
+    background: #fff;
+    margin-top: -69px;
+    padding: 20px 30px;
+    border: 1px sol #000;
+    border: 1px solid #000;
+    border-radius: 30px;
+    text-align: center;
+}
+.blog .card .card-text{
+    text-align: justify;
+}

@@ -1,0 +1,45 @@
+.price h2{
+    font-size: clamp(1rem, 35px, 3rem);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.price hr{
+    height: 3px;
+    border: none;
+    background: #000 !important;
+}
+.price p{
+    width: 50%;
+    line-height: 1.2;
+    margin: 10px auto;
+}
+.price .card{
+    transition: .3s all ease-in-out;
+}
+.price .card:hover{
+    transform: translateY(-10px);
+}
+.price .card .price-box span:first-child{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 4px #ddd;
+    line-height: 80px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    transition: .3s all ease-in-out;
+}
+.price .card:hover .price-box span:first-child{
+    background-color: #000;
+    color: #fff;
+}
+.price .card ul{
+    text-align: center;
+    list-style: none;
+}
+.price .card ul li{
+    margin: 10px auto;
+}

@@ -1,0 +1,12 @@
+.footer{
+    height: auto;
+}
+.footer .logo{
+    text-transform: uppercase;
+    font-size: clamp(1rem, 30px, 2.5rem);
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: -10px -10px #ddd;
+    color: #000 !important;
+    text-decoration: none;
+}

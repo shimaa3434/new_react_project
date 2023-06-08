@@ -1,0 +1,26 @@
+.navbar{
+    padding: 18px 0;
+    position: fixed;
+    height: auto;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    transition: .4s all ease-in-out;
+}
+.navbar.scrolled{
+    padding: 10px 0;
+}
+.navbar .navbar-brand{
+    text-transform: uppercase;
+    font-size: clamp(1rem, 30px, 2.5rem);
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: -10px -10px #ddd;
+}
+.navbar .nav-item{
+    padding: 0px 10px;
+}
+.navbar .nav-item .nav-link{
+    font-weight: 600;
+    text-transform: capitalize;
+}
